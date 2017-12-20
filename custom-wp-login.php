@@ -197,7 +197,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
     border-bottom: 1px solid #31232300;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background: #ff3434b8;
+    background: #0a3d8cb8;
     color: #fff;
 	}
 	.row{
@@ -207,19 +207,31 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
     background: #fff;
 	}
 .center-block {
-    display: block;
+	display: block;
     margin-right: auto;
     margin-left: auto;
     margin-top: 35px;
     font-size: 17px;
-    padding: 5px 30px 5px 29px;
+    padding: 5px 30px 8px 29px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #516b86;
+    background-image: linear-gradient(#7db0ff,#1e3d6d);
+    border-color: #516b86;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.39);
 }
 li{margin-bottom: 5px!important;list-style: square;}
 </style>
 
 	<div id="consentBanner">
 	<div class="panel-heading">
-		<h3 class="panel-title">Information System Warning and Consent Banner</h3>
+		<h3 class="panel-title"><img style=" float: left; margin-right: 17px; height: 46px; margin-top: -14px; " src="/Content/s3logo.png">Information System Warning and Consent Banner</h3>
 	</div>
 	<div class="row">
         <div class="col-md-8 col-md-offset-2">
